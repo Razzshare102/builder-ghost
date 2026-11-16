@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Builder Ghost — the ghost that builds on make.fun</title>
+  <!-- Deep-navy field, one bold subject: a white ghost in a hard hat holding a golden wrench. -->
+  <rect width="1024" height="1024" fill="#0E1330"/>
+
+  <!-- Sparkles -->
+  <path d="M180 210 L196 252 L238 268 L196 284 L180 326 L164 284 L122 268 L164 252 Z" fill="#FFC531"/>
+  <path d="M852 300 L863 329 L892 340 L863 351 L852 380 L841 351 L812 340 L841 329 Z" fill="#FFC531"/>
+
+  <!-- Ghost body: dome top, straight sides, wavy hem -->
+  <path d="M232 780 L232 560 A280 280 0 0 1 792 560 L792 780
+           Q745 850 698 780 Q652 850 605 780 Q559 850 512 780
+           Q466 850 419 780 Q373 850 326 780 Q279 850 232 780 Z"
+        fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <ellipse cx="420" cy="520" rx="34" ry="48" fill="#0B1026"/>
+  <ellipse cx="604" cy="520" rx="34" ry="48" fill="#0B1026"/>
+  <circle cx="432" cy="502" r="10" fill="#FFFFFF"/>
+  <circle cx="616" cy="502" r="10" fill="#FFFFFF"/>
+
+  <!-- Smile -->
+  <path d="M470 622 Q512 652 554 622" fill="none" stroke="#0B1026" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Wrench, held at the ghost's right side -->
+  <g transform="translate(778 596) rotate(32)">
+    <rect x="-15" y="-20" width="30" height="170" rx="13" fill="#FFC531" stroke="#0B1026" stroke-width="8"/>
+    <circle cx="0" cy="-52" r="40" fill="none" stroke="#FFC531" stroke-width="26"/>
+    <path d="M0 -92 L42 -58 L12 -22 L-14 -52 Z" fill="#0E1330"/>
+  </g>
+
+  <!-- Hard hat: dome, ridge, brim -->
+  <path d="M336 316 A176 132 0 0 1 688 316 L688 316 Z" fill="#FFC531" stroke="#0B1026" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="494" y="186" width="36" height="130" rx="16" fill="#F5A623" stroke="#0B1026" stroke-width="8"/>
+  <rect x="296" y="300" width="432" height="40" rx="20" fill="#FFC531" stroke="#0B1026" stroke-width="10"/>
+</svg>
